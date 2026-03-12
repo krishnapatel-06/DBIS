@@ -1,0 +1,13 @@
+-- create database practicle1;
+use practicle1;
+-- create table student(id int , s_name varchar(250) , age int , height float);
+-- insert into  student(id , s_name , age , height) values 
+-- (1,'mark',12,6.0),
+ -- (2,'jack',16,6.1),
+-- (3,'sures',14,6.2),
+-- (4,'ramesh',17,6.3),
+-- (5,'divy',19,6.4);
+ -- select * from student;
+-- select age from student;
+-- update student set age = 20 where id = 1;
+-- delete from student where id = 5;

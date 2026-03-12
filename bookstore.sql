@@ -1,0 +1,41 @@
+-- create database bookstore;
+use bookstore;
+-- create table book_restoration_project
+-- (project_id int,
+-- book_title varchar(250),
+-- author_name tinytext,
+-- restoration_date date,
+-- condition_before text,
+-- condition_after text,
+-- restored_by varchar(250),
+-- cost_usd bigint
+-- );
+-- insert into book_restoration_project(project_id,book_title,author_name,restoration_date,condition_before,condition_after,restored_by,cost_usd) 
+-- values(1,'Codex Seraphinianus','Luigi Serafini','2015-04-22','Poor','Good','Mr. Langdon',1200),
+-- (2,'Voynich Manuscript','Unknown','2017-09-10','Very Poor','Fair','Ms. Whitmore',3000),
+-- (3,'Hypnerotomachia Poliphili','Francesco Colonna','2018-12-05','Fair','Excellent','Mr. D\'Souza',1500),
+-- (4,'Gutenberg Bible','Johannes Gutenberg','2020-03-18','Poor','Good','Ms. Adler',5000),
+-- (5,'Diamond Sutra','Unknown','2021-07-23','Very Poor','Poor','Mr. Lee',2000),
+-- (6,'Book of Kells','Unknown','2023-05-15','Good','Excellent','Dr. O\'Connor',4200);
+-- select * from book_restoration_project;
+-- insert into book_restoration_project(project_id,book_title,author_name,restoration_date,condition_before,condition_after,restored_by,cost_usd) 
+-- values(7,'Magna Carta','Various','2024-02-20','Fair','Good','Mr.collins',1800);
+-- insert into book_restoration_project(project_id,book_title,author_name,restoration_date,condition_before,condition_after,restored_by,cost_usd) 
+-- values(8,'The Black Book','Unknown','2022-10-01','Very Poor','Fair','Ms. Monroe',2500);
+-- update book_restoration_project set condition_after ='Fair' where book_title ='Diamond Sutra';
+-- update book_restoration_project set cost_usd=3500 where project_id = 2;
+-- delete from book_restoration_project where book_title ='Book of Kells';
+-- delete from book_restoration_project where restored_by='Mr. Lee';
+-- select * from book_restoration_project;
+-- select * from book_restoration_project where restored_by ='Ms. Adler';
+-- select * from book_restoration_project where restoration_date < '2019-01-01';
+-- select * from book_restoration_project where restoration_date > '2020-01-01' and cost_usd > 2000;
+-- select * from book_restoration_project where condition_before = 'Very Poor';
+-- select * from book_restoration_project where restored_by ='Mr. D\'Souza' or cost_usd < 2000 ;
+-- select * from book_restoration_project where condition_after !='Good';
+-- select * from book_restoration_project where book_title like 'C%';
+-- select * from book_restoration_project where author_name like '%n';
+-- select * from book_restoration_project where book_title like '____';
+
+
+

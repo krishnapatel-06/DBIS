@@ -1,0 +1,15 @@
+-- create database alter_table;
+use alter_table;
+-- create table NCC(
+-- id int,
+-- camp_name varchar(50),
+-- no_of_guns int
+-- );
+-- insert into NCC(id,camp_name,no_of_guns) values (1,'Thol',200),
+-- (2,'baroda',210),
+-- (3,'anand',300);
+-- alter  table NCC add column no_of_tanks int default(0);
+-- select * from NCC;
+-- alter table NCC drop column no_of_tanks;
+-- alter table NCC modify column no_of_guns varchar(50);
+-- alter table NCC rename column no_of_guns to no_of_bandook; 
